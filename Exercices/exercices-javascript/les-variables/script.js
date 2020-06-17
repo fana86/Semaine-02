@@ -21,4 +21,7 @@ let siriusStudentArray = [
 ];
 console.log(siriusStudentArray[6]);
 console.log(siriusStudentArray[0]);
+const name = 'Fanny';
+console.log(name);
+const student = { name: 'Fanny', firstname: 'Aliyou', age: '34' };
 console.log(student.name);
