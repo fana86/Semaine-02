@@ -1,27 +1,24 @@
-let helloWorld = 'hello world';
-console.log(helloWorld);
-let bonjour = "bonjour je m'appelle";
-console.log(bonjour);
-const firstName = 'Aliyou';
-
-console.log(bonjour + ' ' + firstName);
-let age = ' 34 ans ';
-console.log(age);
-let siriusStudentArray = [
-  'Aliyou',
-  'Lionel',
-  'kambou',
-  'Ezickel',
-  'Thierry',
-  'jean',
-  'Julie',
-  'Cissé',
-  'geremy',
-  'Alpha',
-];
-console.log(siriusStudentArray[6]);
-console.log(siriusStudentArray[0]);
-const name = 'Fanny';
-console.log(name);
-const student = { name: 'Fanny', firstname: 'Aliyou', age: '34' };
-console.log(student.name);
+let firstNumber = 1;
+let secondNumber = 2;
+let thirdNumber = 4;
+let fourthNumber = 8;
+console.log(firstNumber * secondNumber);
+console.log(secondNumber * secondNumber);
+console.log(firstNumber * fourthNumber);
+console.log(thirdNumber * thirdNumber);
+let fifthNumber = 6;
+let sixthNumber = 356;
+let seventhNumber = 130;
+let eighthNumber = 196;
+let ninthNumber = 246;
+console.log(fifthNumber / secondNumber);
+console.log(sixthNumber / secondNumber);
+console.log(seventhNumber / secondNumber);
+console.log(eighthNumber / secondNumber);
+console.log(ninthNumber / secondNumber);
+const prix = 79.99;
+let rate = 0.19;
+let newSolde = 15.1981;
+let prixInitial = 79.99;
+console.log(prix * rate);
+console.log(prixInitial - newSolde);
